@@ -1,1 +1,3 @@
-// Data for Projects and Tech Stack
+export const name = "Ashveer Bhayroo"
+
+export const title = "Software Engineer"
