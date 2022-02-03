@@ -1,6 +1,6 @@
 import React from 'react';
 import Portrait from '../../assets/portrait.jpg'
-import { promises } from '../../components/data'
+import { promises, description } from '../../components/data'
 
 function About(props) {
     return (
@@ -8,6 +8,8 @@ function About(props) {
             <img src={Portrait} alt='protrait'/>
             {promises.map(promise => promise + '  ')}
             <br/>
+            {description}
+            <br />
             <i class="devicon-javascript-plain colored"></i>{" "}
             <i class="devicon-python-plain colored"></i>{" "}
             <i class="devicon-html5-plain-wordmark colored"></i>{" "}
