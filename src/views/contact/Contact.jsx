@@ -6,7 +6,7 @@ function Contact(props) {
         <>
         <div>
             {contactLinks.map((link) => {
-                return <a href={link.link} target="_blank" rel='noreferrer'>{link.name}{" "}</a>
+                return <a href={link.link} target="_blank" rel='noreferrer' key={link.id}>{link.name}{" "}</a>
             })}
         </div>
         <div>{" "}</div>
