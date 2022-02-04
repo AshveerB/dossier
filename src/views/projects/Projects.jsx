@@ -9,7 +9,7 @@ function Projects(props) {
                 return (
                     <div key={project.id}>
                     <div>{project.title}</div>{" "}
-                    <img src={project.image} alt="project"/>{" "}
+                    <img src={require(`../../assets/${project.image}`)} alt="project"/>{" "}
                     {project.technologyUsed.map(tech => tech)}{" "}
                     <a href={project.gitHubLink} target="_blank" rel="noreferrer">GitHub</a>{" "}
                     <a href={project.deployedLink} target="_blank" rel="noreferrer">Deployed Link</a>

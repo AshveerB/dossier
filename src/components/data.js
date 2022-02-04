@@ -34,7 +34,7 @@ export const projects = [
 	{
 		id: 1,
 		title: 'Spaceman',
-		image: '../assets/801.png',
+		image: '801.png',
 		technologyUsed: ['Javascript', 'HTML', 'CSS', 'GitHub', 'Git'],
 		gitHubLink: 'https://github.com/AshveerB/spaceman',
 		deployedLink: 'https://ashveerb.github.io/spaceman/',
@@ -42,7 +42,7 @@ export const projects = [
 	{
 		id: 2,
 		title: 'Beer30',
-		image: '../assets/802.png',
+		image: '802.png',
 		technologyUsed: ['React', 'Javascript', 'Postman'],
 		gitHubLink: 'https://github.com/AshveerB/beer30',
 		deployedLink: 'https://mybeer30.netlify.app/home',
@@ -50,7 +50,7 @@ export const projects = [
 	{
 		id: 3,
 		title: 'All The Feels',
-		image: '../assets/803.png',
+		image: '803.png',
 		technologyUsed: ['React', 'Nodejs', 'Express', 'MongoDB'],
 		gitHubLink: 'https://github.com/Kid-Then-Kid-Now',
 		deployedLink: 'https://all-the-feels-fe.herokuapp.com/',
@@ -58,7 +58,7 @@ export const projects = [
 	{
 		id: 4,
 		title: 'Practice Makes Permanent',
-		image: '../assets/804.png',
+		image: '804.png',
 		technologyUsed: ['React', 'Javascript', 'Python', 'Django', 'PostgreSQL'],
 		gitHubLink: 'https://github.com/AshveerB/practice-makes-permanent',
 		deployedLink: 'https://practice-makes-permanent.netlify.app/home',
@@ -66,7 +66,7 @@ export const projects = [
 	{
 		id: 5,
 		title: 'Second Opinion',
-		image: '../assets/805.jpeg',
+		image: '805.jpeg',
 		technologyUsed: [
 			'React',
 			'Figma',
@@ -80,7 +80,7 @@ export const projects = [
 	{
 		id: 6,
 		title: 'Storytime',
-		image: '../assets/807.png',
+		image: '807.png',
 		technologyUsed: ['React', 'Figma'],
 		gitHubLink: 'https://github.com/story-time-team',
 		deployedLink: 'https://storytimeclient.netlify.app/',
@@ -88,7 +88,7 @@ export const projects = [
 	{
 		id: 7,
 		title: 'My Taxes My Government',
-		image: '../assets/808.png',
+		image: '808.png',
 		technologyUsed: ['React'],
 		gitHubLink: 'https://github.com/AshveerB/mtmg',
 		deployedLink: 'https://mytaxesmygovernment.netlify.app/',
@@ -96,7 +96,7 @@ export const projects = [
 	{
 		id: 8,
 		title: 'Portfolio',
-		image: '../assets/809.png',
+		image: '809.png',
 		technologyUsed: ['React'],
 		gitHubLink: 'https://github.com/AshveerB/portfolio',
 		deployedLink: 'https://ashveer-bhayroo.netlify.app/home',
@@ -104,7 +104,7 @@ export const projects = [
 	{
 		id: 9,
 		title: 'Youtube-Clone',
-		image: '../assets/718.png',
+		image: '718.png',
 		technologyUsed: ['React', 'Nodejs', 'Express', 'MongoDB', 'Redux'],
 		gitHubLink: 'https://github.com/AshveerB/youtube-clone',
 		deployedLink: 'https://youtube-clone-ab.herokuapp.com/',
@@ -112,7 +112,7 @@ export const projects = [
 	{
 		id: 10,
 		title: 'Video Chat',
-		image: '../assets/711.png',
+		image: '711.png',
 		technologyUsed: ['React', 'Nodejs', 'Express', 'Socket.io'],
 		gitHubLink: 'https://github.com/AshveerB/video-chat',
 		deployedLink: 'https://video-chat-ab.netlify.app/',
@@ -120,7 +120,7 @@ export const projects = [
 	{
 		id: 11,
 		title: 'Text Chat',
-		image: '../assets/712.png',
+		image: '712.png',
 		technologyUsed: [
 			'React',
 			'Nodejs',
@@ -135,7 +135,7 @@ export const projects = [
 	{
 		id: 12,
 		title: 'Cryptoworld',
-		image: '../assets/714.png',
+		image: '714.png',
 		technologyUsed: ['React'],
 		gitHubLink: 'https://github.com/AshveerB/cryptoworld',
 		deployedLink: 'https://cryptoworld-ab.netlify.app/',
@@ -143,7 +143,7 @@ export const projects = [
 	{
 		id: 13,
 		title: 'Crypto-Exchange',
-		image: '../assets/715.png',
+		image: '715.png',
 		technologyUsed: ['Solidity', 'Hardhat', 'Tailwindcss', 'Vite'],
 		gitHubLink: 'https://github.com/AshveerB/cryto-exchange',
 		deployedLink: 'https://crypto-exchange-ab.netlify.app/',
@@ -151,7 +151,7 @@ export const projects = [
 	{
 		id: 14,
 		title: 'Dossier',
-		image: '../assets/808.png',
+		image: '808.png',
 		technologyUsed: ['React'],
 		gitHubLink: 'https://github.com/AshveerB/dossier',
 		deployedLink: '',
@@ -159,7 +159,7 @@ export const projects = [
 	{
 		id: 15,
 		title: 'Ecommerce-Clone',
-		image: '../assets/808.png',
+		image: '808.png',
 		technologyUsed: ['React', 'Nodejs', 'Express', 'MongoDB', 'Redux'],
 		gitHubLink: 'https://github.com/AshveerB/ecommerce-clone-1',
 		deployedLink: '',
