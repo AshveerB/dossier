@@ -5,7 +5,6 @@ function Projects(props) {
     return (
         <div>
             {projects.map(project => {
-                console.log(project.image);
                 return (
                     <div key={project.id}>
                     <div>{project.title}</div>{" "}
