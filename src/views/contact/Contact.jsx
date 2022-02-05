@@ -1,12 +1,13 @@
 import React from 'react';
 import { contactLinks } from '../../components/data'
+import './contact.css'
 
 function Contact(props) {
     return (
         <>
-        <div>
+        <div className='contact'>Contact Me: 
             {contactLinks.map((link) => {
-                return <a href={link.link} target="_blank" rel='noreferrer' key={link.id}>{link.name}{" "}</a>
+                return <a href={link.link} target="_blank" rel='noreferrer' className='links' key={link.id}> {link.name}{" "}</a>
             })}
         </div>
         <div>{" "}</div>
