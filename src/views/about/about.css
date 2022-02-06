@@ -1,0 +1,21 @@
+.aboutContainer {
+    display: flex;
+}
+
+.pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.promises {
+
+}
+
+.desc {
+
+}
+
+.tech {
+
+}

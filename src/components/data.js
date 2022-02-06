@@ -30,7 +30,7 @@ export const contactLinks = [
 	},
 ];
 
-export const projects = [
+export const earlyProjects = [
 	{
 		id: 1,
 		title: 'Spaceman',
@@ -65,6 +65,17 @@ export const projects = [
 	},
 	{
 		id: 5,
+		title: 'Portfolio',
+		image: '809.png',
+		technologyUsed: ['React'],
+		gitHubLink: 'https://github.com/AshveerB/portfolio',
+		deployedLink: 'https://ashveer-bhayroo.netlify.app/home',
+	},
+];
+
+export const completedProjects = [
+	{
+		id: 1,
 		title: 'Second Opinion',
 		image: '805.jpeg',
 		technologyUsed: [
@@ -78,39 +89,7 @@ export const projects = [
 		deployedLink: 'https://second-opinion.netlify.app/home',
 	},
 	{
-		id: 6,
-		title: 'Storytime',
-		image: '807.png',
-		technologyUsed: ['React', 'Figma'],
-		gitHubLink: 'https://github.com/story-time-team',
-		deployedLink: 'https://storytimeclient.netlify.app/',
-	},
-	{
-		id: 7,
-		title: 'My Taxes My Government',
-		image: '808.png',
-		technologyUsed: ['React'],
-		gitHubLink: 'https://github.com/AshveerB/mtmg',
-		deployedLink: 'https://mytaxesmygovernment.netlify.app/',
-	},
-	{
-		id: 8,
-		title: 'Portfolio',
-		image: '809.png',
-		technologyUsed: ['React'],
-		gitHubLink: 'https://github.com/AshveerB/portfolio',
-		deployedLink: 'https://ashveer-bhayroo.netlify.app/home',
-	},
-	{
-		id: 9,
-		title: 'Youtube-Clone',
-		image: '718.png',
-		technologyUsed: ['React', 'Nodejs', 'Express', 'MongoDB', 'Redux'],
-		gitHubLink: 'https://github.com/AshveerB/youtube-clone',
-		deployedLink: 'https://youtube-clone-ab.herokuapp.com/',
-	},
-	{
-		id: 10,
+		id: 2,
 		title: 'Video Chat',
 		image: '711.png',
 		technologyUsed: ['React', 'Nodejs', 'Express', 'Socket.io'],
@@ -118,7 +97,7 @@ export const projects = [
 		deployedLink: 'https://video-chat-ab.netlify.app/',
 	},
 	{
-		id: 11,
+		id: 3,
 		title: 'Text Chat',
 		image: '712.png',
 		technologyUsed: [
@@ -133,7 +112,7 @@ export const projects = [
 		deployedLink: 'https://text-chat-clone.herokuapp.com/',
 	},
 	{
-		id: 12,
+		id: 4,
 		title: 'Cryptoworld',
 		image: '714.png',
 		technologyUsed: ['React'],
@@ -141,7 +120,7 @@ export const projects = [
 		deployedLink: 'https://cryptoworld-ab.netlify.app/',
 	},
 	{
-		id: 13,
+		id: 5,
 		title: 'Crypto-Exchange',
 		image: '715.png',
 		technologyUsed: ['Solidity', 'Hardhat', 'Tailwindcss', 'Vite'],
@@ -149,15 +128,42 @@ export const projects = [
 		deployedLink: 'https://crypto-exchange-ab.netlify.app/',
 	},
 	{
-		id: 14,
+		id: 6,
 		title: 'Dossier',
 		image: '808.png',
 		technologyUsed: ['React'],
 		gitHubLink: 'https://github.com/AshveerB/dossier',
 		deployedLink: '',
 	},
+];
+
+export const inProgressProjects = [
 	{
-		id: 15,
+		id: 1,
+		title: 'Storytime',
+		image: '807.png',
+		technologyUsed: ['React', 'Figma'],
+		gitHubLink: 'https://github.com/story-time-team',
+		deployedLink: 'https://storytimeclient.netlify.app/',
+	},
+	{
+		id: 2,
+		title: 'My Taxes My Government',
+		image: '808.png',
+		technologyUsed: ['React'],
+		gitHubLink: 'https://github.com/AshveerB/mtmg',
+		deployedLink: 'https://mytaxesmygovernment.netlify.app/',
+	},
+	{
+		id: 3,
+		title: 'Youtube-Clone',
+		image: '718.png',
+		technologyUsed: ['React', 'Nodejs', 'Express', 'MongoDB', 'Redux'],
+		gitHubLink: 'https://github.com/AshveerB/youtube-clone',
+		deployedLink: 'https://youtube-clone-ab.herokuapp.com/',
+	},
+	{
+		id: 4,
 		title: 'Ecommerce-Clone',
 		image: '808.png',
 		technologyUsed: ['React', 'Nodejs', 'Express', 'MongoDB', 'Redux'],
