@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Projects(props) {
+function TechnologyCard(props) {
     return (
         <div>
-            Projects
+            TC
         </div>
     );
 }
 
-export default Projects;
+export default TechnologyCard;

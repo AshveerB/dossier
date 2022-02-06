@@ -8,14 +8,7 @@
     border-radius: 50%;
 }
 
-.promises {
-
-}
-
-.desc {
-
-}
-
-.tech {
-
+span {
+    height: 200px;
+    width: 200px;
 }

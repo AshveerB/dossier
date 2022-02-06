@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Technology(props) {
+function PledgeCard(props) {
     return (
         <div>
-            Technology
+            PC
         </div>
     );
 }
 
-export default Technology;
+export default PledgeCard;
