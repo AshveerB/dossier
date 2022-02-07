@@ -1,7 +1,6 @@
 import React from 'react';
-import './contact.css'
 
-function Contact(props) {
+function Email(props) {
     return (
         <div className='email'>
             Email
@@ -9,4 +8,4 @@ function Contact(props) {
     );
 }
 
-export default Contact;
+export default Email;
