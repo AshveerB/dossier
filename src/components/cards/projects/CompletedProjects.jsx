@@ -1,6 +1,6 @@
 import React from 'react';
 import { completedProjects } from '../../data'
-import { Card, ListGroup, ListGroupItem } from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 
 function CompletedProjects(props) {
     return (

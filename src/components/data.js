@@ -140,6 +140,6 @@ export const inProgressProjects = [
 		title: 'Ecommerce-Clone',
 		image: '808.png',
 		gitHubLink: 'https://github.com/AshveerB/ecommerce-clone-1',
-		deployedLink: '',
+		deployedLink: 'https://coming-soon-ab.netlify.app/',
 	},
 ];

@@ -1,12 +1,3 @@
-.contact {
-    position: fixed;
-    left: 50%;
-    bottom: 0px;
-    transform: translate(-50%, -10%);
-    margin: 0 auto;
-}
-
-.links {
-    text-decoration: none;
-    color: purple;
+.email {
+	color: purple;
 }

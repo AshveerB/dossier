@@ -13,7 +13,6 @@ function NavBar(props) {
                         <Nav.Link href="/"><span className='nav-color'>Home</span></Nav.Link>
                         <Nav.Link href="/about"><span className='nav-color'>About</span></Nav.Link>
                         <Nav.Link href="/projects"><span className='nav-color'>Projects</span></Nav.Link>
-                        <Nav.Link href="/contact"><span className='nav-color'>Contact</span></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
