@@ -102,7 +102,7 @@ export const completedProjects = [
 		title: 'Dossier',
 		image: '819.png',
 		gitHubLink: 'https://github.com/AshveerB/dossier',
-		deployedLink: '',
+		deployedLink: 'https://ashveer-dossier.netlify.app/',
 	},
 ];
 

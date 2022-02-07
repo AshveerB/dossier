@@ -7,6 +7,7 @@ import './about.css'
 
 function About(props) {
     return (
+        <div className='about'>
         <div className='aboutContainer'>
             <div className='aboutLeft'>
                 <img src={Portrait} alt='protrait' className='pic'/><br />
@@ -16,6 +17,7 @@ function About(props) {
                 <div className='desc'>{description}</div>
                 <TechnologyCard /><br /><br /><br />
             </div>
+        </div>
         </div>
     );
 }

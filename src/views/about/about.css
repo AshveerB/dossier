@@ -1,6 +1,4 @@
 .pic {
-	height: 300px;
-	width: 300px;
 	border-radius: 50%;
 }
 
@@ -82,20 +80,10 @@
 	.aboutContainer {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around;
+		justify-content: space-evenly;
 		align-items: center;
+		align-content: center;
 	}
-	.pic {
-		height: 300px;
-		width: 300px;
-	}
-	.desc {
-		width: 400px;
-	}
-	.tech {
-		width: 400px;
-	}
-	
 }
 
 @media only screen and (min-width: 992px) {
@@ -105,12 +93,23 @@
 	.tech {
 		width: 600px;
 	}
-	.aboutLeft {
-		justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px) {
+	.about {
+		position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
 	}
 }
 
 @media only screen and (min-width: 1200px) {
+	.aboutContainer {
+		display: flex;
+		justify-content: space-evenly;
+	}
 	.pic {
 		height: 400px;
 		width: 400px;
