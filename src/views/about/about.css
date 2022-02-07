@@ -1,14 +1,30 @@
-.aboutContainer {
-    display: flex;
-}
-
 .pic {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
 }
 
-span {
-    height: 200px;
-    width: 200px;
+.pledges {
+	color: purple;
+	font-size: 30px;
+	font-weight: bolder;
+	white-space: pre-line;
+	font-style: italic;
+	text-shadow: 1px 1px 1px black,
+               	 2px 2px 1px black;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.tech {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.desc {
+	font-weight: bold;
+	color: purple;
 }

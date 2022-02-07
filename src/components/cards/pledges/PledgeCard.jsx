@@ -3,7 +3,7 @@ import { promises } from '../../data'
 
 function PledgeCard(props) {
     return (
-        <div>
+        <div className='pledges'>
             {promises.map(promise => promise + '  ')}
         </div>
     );

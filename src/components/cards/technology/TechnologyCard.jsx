@@ -2,7 +2,7 @@ import React from 'react';
 
 function TechnologyCard(props) {
     return (
-        <div>
+        <div className='tech'>
             <i className="devicon-javascript-plain colored"></i>{" "}
             <i className="devicon-python-plain colored"></i>{" "}
             <i className="devicon-html5-plain-wordmark colored"></i>{" "}

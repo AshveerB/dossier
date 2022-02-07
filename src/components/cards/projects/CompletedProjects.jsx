@@ -20,7 +20,7 @@ function CompletedProjects(props) {
                     </Card>
                     </div>
                     )
-                })}     
+                })}<br /><br /><br /><br /><br />
         </div>
     );
 }
