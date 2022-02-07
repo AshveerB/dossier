@@ -10,8 +10,7 @@
 	font-weight: bolder;
 	white-space: pre-line;
 	font-style: italic;
-	text-shadow: 1px 1px 1px black,
-               	 2px 2px 1px black;
+	text-shadow: 1px 1px 1px black, 2px 2px 1px black;
 	text-align: center;
 	letter-spacing: 5px;
 }
@@ -27,4 +26,99 @@
 .desc {
 	font-weight: bold;
 	color: purple;
+}
+
+@media only screen and (max-width: 600px) {
+	.aboutContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.pic {
+		height: 200px;
+		width: 200px;
+	}
+	.desc {
+		width: 400px;
+	}
+	.tech {
+		width: 400px;
+	}
+	.aboutRight {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.aboutContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.pic {
+		height: 300px;
+		width: 300px;
+	}
+	.desc {
+		width: 400px;
+	}
+	.tech {
+		width: 400px;
+	}
+	.aboutRight {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.aboutContainer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.pic {
+		height: 300px;
+		width: 300px;
+	}
+	.desc {
+		width: 400px;
+	}
+	.tech {
+		width: 400px;
+	}
+	
+}
+
+@media only screen and (min-width: 992px) {
+	.desc {
+		width: 600px;
+	}
+	.tech {
+		width: 600px;
+	}
+	.aboutLeft {
+		justify-content: space-between;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.pic {
+		height: 400px;
+		width: 400px;
+	}
+	.desc {
+		width: 700px;
+	}
+	.tech {
+		width: 700px;
+	}
 }

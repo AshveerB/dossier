@@ -4,29 +4,18 @@ import PledgeCard from '../../components/cards/pledges/PledgeCard';
 import TechnologyCard from '../../components/cards/technology/TechnologyCard';
 import { description } from '../../components/data'
 import './about.css'
-import { Container, Row, Col } from 'react-bootstrap/'
 
 function About(props) {
     return (
         <div className='aboutContainer'>
-            <Container>
-                <Row>
-                    <Col>
-                        <img src={Portrait} alt='protrait' className='pic'/>
-                    </Col>
-                    <Col>
-                        <div className='desc'>{description}</div>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <TechnologyCard />
-                    </Col>
-                    <Col>
-                        <PledgeCard />
-                    </Col>
-                </Row>
-            </Container>
+            <div className='aboutLeft'>
+                <img src={Portrait} alt='protrait' className='pic'/><br />
+                <PledgeCard />
+            </div>
+            <div className='aboutRight'>
+                <div className='desc'>{description}</div>
+                <TechnologyCard /><br /><br /><br />
+            </div>
         </div>
     );
 }
