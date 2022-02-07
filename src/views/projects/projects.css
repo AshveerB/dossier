@@ -1,5 +1,17 @@
-.projectPic {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+.projects {
+    display: flex;
+    justify-content: space-evenly;
 }
+
+.cardTitle {
+    color: black;
+}
+
+.cardSize {
+    height: 350px;
+}
+
+.img {
+    height: 125px;
+}
+

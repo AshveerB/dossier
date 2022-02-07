@@ -4,7 +4,7 @@ import './projects.css'
 
 function Projects(props) {
     return (
-        <div>
+        <div className='projects'>
             <CompletedProjects />
             <InProgressProjects />
             <EarlyProjects />

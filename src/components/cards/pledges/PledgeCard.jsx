@@ -1,9 +1,10 @@
 import React from 'react';
+import { promises } from '../../data'
 
 function PledgeCard(props) {
     return (
         <div>
-            PC
+            {promises.map(promise => promise + '  ')}
         </div>
     );
 }

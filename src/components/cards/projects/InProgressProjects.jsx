@@ -4,24 +4,18 @@ import { Card, ListGroup, ListGroupItem } from 'react-bootstrap'
 
 function InProgressProjects(props) {
     return (
-        <div>
+        <div><span className='cardTitle'>In Progress: </span>
             {inProgressProjects.map(project => {
                 return (
-                    <div key={project.id}>
-                    <Card style={{ width: '18rem' }}>
-                        
+                    <div key={project.id} className='cardSize'>
+                    <Card style={{ width: '10rem' }}>
                         <Card.Body>
-                            <Card.Title>{project.title}</Card.Title>
-                            <img src={require(`../../../assets/${project.image}`)} alt="project" className='projectPic'/>
+                            <Card.Title><span>{project.title}</span></Card.Title>
+                            <Card.Img variant="top" src={require(`../../../assets/${project.image}`)} className='img'/>
                         </Card.Body>
-                        <ListGroup className="list-group-flush">
-                            {project.technologyUsed.map(tech => {
-                                return <ListGroupItem>{tech}</ListGroupItem>
-                            })}
-                        </ListGroup>
                         <Card.Body>
-                            <a href={project.gitHubLink} target="_blank" rel="noreferrer">GitHub</a>{" "}
-                            <a href={project.deployedLink} target="_blank" rel="noreferrer">Deployed Link</a>
+                            <a href={project.gitHubLink} target="_blank" rel="noreferrer" className='links'>GitHub Link</a>{" "}<br />
+                            <a href={project.deployedLink} target="_blank" rel="noreferrer" className='links'>Deployed Link</a>
                         </Card.Body>
                     </Card>
                     </div>
