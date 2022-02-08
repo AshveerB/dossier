@@ -1,10 +1,24 @@
+.about {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.aboutRight {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .pic {
 	border-radius: 50%;
 }
 
 .pledges {
 	color: purple;
-	font-size: 30px;
 	font-weight: bolder;
 	white-space: pre-line;
 	font-style: italic;
@@ -43,12 +57,6 @@
 	.tech {
 		width: 400px;
 	}
-	.aboutRight {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
 }
 
 @media only screen and (min-width: 600px) {
@@ -68,12 +76,6 @@
 	.tech {
 		width: 400px;
 	}
-	.aboutRight {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -84,6 +86,12 @@
 		align-items: center;
 		align-content: center;
 	}
+	.techContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100px;
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -92,16 +100,7 @@
 	}
 	.tech {
 		width: 600px;
-	}
-}
-
-@media only screen and (max-width: 1200px) {
-	.about {
-		position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
+		height: 100px;
 	}
 }
 

@@ -15,7 +15,9 @@ function About(props) {
             </div>
             <div className='aboutRight'>
                 <div className='desc'>{description}</div>
-                <TechnologyCard /><br /><br /><br />
+                <div className='techContainer'>
+                    <TechnologyCard />
+                </div>
             </div>
         </div>
         </div>
