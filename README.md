@@ -10,3 +10,4 @@
 - Run nmp install in root directory
 - Replace data in data.js file
 - Run npm start
+- Change info in meta tags and helmet provider tags

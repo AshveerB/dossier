@@ -11,7 +11,7 @@ function EarlyProjects(props) {
                     <Card style={{ width: '10rem' }}>
                         <Card.Body>
                             <Card.Title><span>{project.title}</span></Card.Title>
-                            <Card.Img variant="top" src={require(`../../../assets/${project.image}`)} className='img'/>
+                            <Card.Img variant="top" src={require(`../../../assets/${project.image}`)} className='img' alt='project'/>
                         </Card.Body>
                         <Card.Body>
                             <a href={project.gitHubLink} target="_blank" rel="noreferrer" className='links'>GitHub Link</a>{" "}<br />
