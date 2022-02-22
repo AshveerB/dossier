@@ -11,9 +11,10 @@ function About(props) {
         <>
             <Helmet>
                 <title>Ashveer Bhayroo About</title>
-                <meta name='description' content='Ashveer Bhayroo about page'/>
+                <meta name='description' content='Ashveer portfollio about page'/>
                 <link rel="canonical" href="/about" />
             </Helmet>
+            <h1>Portfolio's About Page</h1>
             <div className='about'>
             <div className='aboutContainer'>
                 <div className='aboutLeft'>

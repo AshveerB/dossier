@@ -8,9 +8,10 @@ function Projects(props) {
         <>
             <Helmet>
                 <title>Ashveer Bhayroo Projects</title>
-                <meta name='description' content='Ashveer Bhayroo projects page'/>
+                <meta name='description' content='Ashveer portfolio projects page'/>
                 <link rel="canonical" href="/projects" />
             </Helmet>
+            <h1>Portfolio's Project Page</h1>
             <div className='projects'>
                 <CompletedProjects />
                 <InProgressProjects />
