@@ -12,6 +12,8 @@ function About(props) {
             <Helmet>
                 <title>Ashveer Bhayroo About</title>
                 <meta name='description' content='Ashveer portfollio about page'/>
+                <meta name='author' content='Ashveer Bhayroo'/>
+                <meta name='keywords' content='javascript, react, node, mongodb, express'/>
                 <link rel="canonical" href="/about" />
             </Helmet>
             <h1>Portfolio's About Page</h1>

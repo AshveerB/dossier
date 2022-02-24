@@ -9,6 +9,8 @@ function Home(props) {
             <Helmet>
                 <title>Ashveer Bhayroo Home</title>
                 <meta name='description' content='Ashveer portfolio home page'/>
+                <meta name='author' content='Ashveer Bhayroo'/>
+                <meta name='keywords' content='software, developer, engineer, javascript, python'/>
                 <link rel="canonical" href="/" />
             </Helmet>
             <h1>Portfolio's Home Page</h1>
