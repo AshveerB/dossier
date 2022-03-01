@@ -21,7 +21,7 @@ function Email(props) {
         if (formState.to === '' || formState.subject === '' || formState.body === '') {
             return alert("Please fill all fields")
         } else {
-            axios({method: 'post', url:'http://localhost:5000/sendmail', data: formState})
+            axios({method: 'post', url:'https://dossier-ab.herokuapp.com/sendmail', data: formState})
             .then(setFormState(initialState))
             .catch(err => {
                 console.log(err);
