@@ -15,10 +15,14 @@ let to;
 let subject;
 let body;
 
+app.get('/', (req, res) => {
+	res.send('Server is running');
+});
+
 app.post('/sendmail', (req, res) => {
 	to = req.body.to;
 	subject = req.body.subject;
-	body = req.body.subject;
+	body = req.body.body;
 	let transporter = nodemailer.createTransport({
 		service: 'gmail',
 		auth: {
@@ -44,10 +48,6 @@ app.post('/sendmail', (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
-
-app.get('/', (req, res) => {
-	res.send('Server is running');
-});
 
 app.listen(PORT, () => {
 	console.log(`App started on port ${PORT}`);
