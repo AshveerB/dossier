@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios'
+import { Helmet } from 'react-helmet-async';
 import './email.css'
 import Button from 'react-bootstrap/Button'
 
@@ -31,6 +32,14 @@ function Email(props) {
 
     return (
         <div className='emailContainer'>
+            <Helmet>
+                <title>Ashveer Bhayroo Email</title>
+                <meta name='description' content='Ashveer portfolio email page'/>
+                <meta name='author' content='Ashveer Bhayroo'/>
+                <meta name='keywords' content='software, developer, engineer, javascript, python'/>
+                <link rel="canonical" href="/sendmail" />
+            </Helmet>
+            <h1>Portfolio's Email Page</h1>
         <div className='email'>
             <div>Send Me A Short Email: </div>
             <form onSubmit={handleSubmit}>
