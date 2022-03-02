@@ -1,3 +1,4 @@
 https://ashveer-dossier.netlify.app/
 https://ashveer-dossier.netlify.app/about
 https://ashveer-dossier.netlify.app/projects
+https://ashveer-dossier.netlify.app/sendmail
