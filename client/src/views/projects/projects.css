@@ -1,6 +1,7 @@
 .projects {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .cardTitle {
@@ -14,4 +15,3 @@
 .img {
     height: 125px;
 }
-
